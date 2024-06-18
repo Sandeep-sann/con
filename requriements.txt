@@ -1,4 +1,4 @@
-Flask==2.0.2
-flask-cors==3.1.1
+Flask==2.1.2
 pdfplumber==0.5.28
-gTTS==2.2.2
+gtts==2.2.3
+werkzeug==2.1.2
