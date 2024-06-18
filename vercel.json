@@ -4,9 +4,6 @@
     { "src": "app.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/convert", "dest": "app.py" }
+    { "src": "/(.*)", "dest": "app.py" }
   ],
-  "env": {
-    "FLASK_ENV": "production"
-  }
 }
